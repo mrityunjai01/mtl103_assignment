@@ -18,7 +18,7 @@ def gomory(fn):
         assert(b.shape == (m,))
         assert(c.shape == (n,))
         ans = overall_wrapper(a, b, c, m, n)
-        print("re", ans)
+        
         return ans
 
 
